@@ -1,0 +1,25 @@
+{
+  "name": "react-redux-role-based-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vud531/react-redux-role-based-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vud531/react-redux-role-based-auth/issues"
+  },
+  "homepage": "https://github.com/vud531/react-redux-role-based-auth#readme",
+  "dependencies": {
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  }
+}
