@@ -1,6 +1,6 @@
 import {
     alertContants
-} from '../_constants'
+} from '../_enum'
 
 const success = message => {
     return {
