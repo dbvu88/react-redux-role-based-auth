@@ -1,6 +1,6 @@
 import {
-    userConstants
-} from '../_constants'
+    userEnum
+} from '../_enum'
 import {
     userService
 } from '../_services'
@@ -18,7 +18,7 @@ const login = (username, password) => {
         LOGIN_REQUEST,
         LOGIN_SUCCESS,
         LOGIN_FAILURE
-    } = userConstants
+    } = userEnum
 
     return dispatch => {
         dispatch({
@@ -51,7 +51,7 @@ const getAll = () => {
         GETALL_REQUEST,
         GETALL_SUCCESS,
         GETALL_FAILURE
-    } = userConstants
+    } = userEnum
 
     return dispatch => {
         dispatch({
