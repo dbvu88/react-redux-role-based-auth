@@ -1,20 +1,20 @@
 import {
-    alertConstants
-} from '../_constants'
+    alertEnum
+} from '../_enum'
 
 export const alert = (state = {}, action) => {
     switch (action.type) {
-        case alertConstants.SUCCESS:
+        case alertEnum.SUCCESS:
             return ({
                 type: 'alert-danger',
                 ...action
             });
-        case alertConstants.ERROR:
+        case alertEnum.ERROR:
             return ({
                 type: 'alert-danger',
                 ...action
             });
-        case alertConstants.CLEAR:
+        case alertEnum.CLEAR:
             return ({});
         default:
             return state
